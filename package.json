@@ -1,0 +1,14 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "This is ts R&D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sawan Nirala",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  }
+}
