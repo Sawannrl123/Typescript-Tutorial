@@ -39,7 +39,9 @@ point2D = point3D;
 
 // For example, here we have a function that expects to be passes in a point 2D as an argument
 // Now, because of point, 3D contains all the information that is required by point 2D.
-function takePoint2D(point: Point2D) { /** */ }
+function takePoint2D(point: Point2D) { 
+    console.log(point);
+}
 takePoint2D(point3D);
 
 // We can actually invoke this function with the point 3D without any compile time errors.
@@ -57,6 +59,8 @@ takePoint2D(point3D);
 
 // And similarly, if there is a function that expects a point 3D and we try to pass in a point 2D
 // we will get a compile time error from typescript
-function takePoint3D(point: Point3D) { /** */ }
+function takePoint3D(point: Point3D) { 
+    console.log(point);
+}
 // takePoint3D(point2D); // Error
 
