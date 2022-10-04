@@ -41,6 +41,7 @@
 - If we try to assign number into string type variable, It will give compile time error.
 - By using ts, ts will ensure that your code doesn't have any syntatic and type error.
 - Typescript follows `pascal case` to define types and `lower case` for predefined types.
+- All of the syntax of JavaScript modules is supported by TypeScript. (import and export)
 
 
 
