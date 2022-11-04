@@ -9,7 +9,7 @@ function add(a: number, b: number): number {
 }
 
 // Now you can have a function in javascript that is not designed to return any value
-function logMessage(message: string) {
+function logMessage(message: string): void {
     console.log('LOG:', message);
 }
 // Now, if a function does not return any value,
