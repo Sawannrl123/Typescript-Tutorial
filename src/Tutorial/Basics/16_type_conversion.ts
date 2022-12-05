@@ -15,7 +15,7 @@ const number = (leet as unknown) as number;
 
 // This is because the value currently held by the variable will still be a string, and if you try to
 // compare it to a number at runtime, you will find that it is not a number because its value is actually
-// the string one three three seven.
+// the string 1337.
 console.log(number === 1337); // false
 console.log(number); // '1337'
 

@@ -50,3 +50,4 @@
 [Udemy](https://naspers.udemy.com/course/typescript-for-professionals/learn/lecture/21434252#overview)
 [Markdown](https://dillinger.io/)
 [Github](https://github.com/Sawannrl123/Typescript-Tutorial)
+[Sheet] (https://docs.google.com/spreadsheets/d/1w2DM0uuPmb8Bw4mEj83AgRxefUVHvAIoFxcrWoKwSAs/edit#gid=0)

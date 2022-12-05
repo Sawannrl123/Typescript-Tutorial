@@ -3,7 +3,7 @@
 
 // TypeScript provides literal type annotations for both of these values.
 let notDefinedLocal: undefined = undefined;
-let notPresentLocat: null = null;
+let notPresentLocal: null = null;
 
 // Now, you will have to deal with both of these values even if you don't use them explicitly in your code.
 
@@ -20,7 +20,6 @@ class PointLocal {
         this.x = x;
         this.y = y;
     }
-    
 }
 
 // We create an instance of this point and then initialize the two members.

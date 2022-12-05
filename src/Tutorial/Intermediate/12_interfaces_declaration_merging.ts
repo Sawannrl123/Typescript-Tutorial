@@ -38,3 +38,13 @@ function handleRequest1(req: Request) {
 
 // So if you are working with an API that requires that seamless structural extension, you will have to
 // use an interface.
+
+interface Box {
+    height: number;
+    width: number;
+}
+interface Box {
+    scale: number;
+}
+
+let box: Box = { height: 5, width: 6, scale: 10 };

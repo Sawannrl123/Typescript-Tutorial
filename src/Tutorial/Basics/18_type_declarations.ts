@@ -47,7 +47,7 @@ console.log('Logged in user', process.env.USER);
 
 // Now, you can see on the compiler output that not only does it tell you that it cannot find this process
 // variable, but also provides the suggestion that you might want to install the type definitions using
-// npm i --save-dev @types/node, now typed is the name of an NPM organization owned by Microsoft, and packages under
+// npm i --save-dev @types/node, now types is the name of an NPM organization owned by Microsoft, and packages under
 // this organization are automatically deployed from a very popular community driven an open source project
 // called Definitely Typed.
 

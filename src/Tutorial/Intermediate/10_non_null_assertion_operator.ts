@@ -82,7 +82,7 @@ function ensureContactable(person: PersonNonNull) {
 // now in order to contact a particular person.
 // We have this function that takes a person and the first thing it does is ensures that person.email,
 // will not be null or undefined by using a utility ensureContactable function.
-function contact(person: PersonNonNull) {
+function contact3(person: PersonNonNull) {
     ensureContactable(person);
     // sendEmail(person.email); // Error
     sendEmail(person.email!);

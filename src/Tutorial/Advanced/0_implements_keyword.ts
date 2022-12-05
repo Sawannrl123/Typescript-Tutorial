@@ -46,4 +46,4 @@ class DogImp1 implements AnimalImp {
 // And now, since no errors are being highlighted by implements animal, we can rest assured that instances
 // of cat and dog can be used at any place where an animal is required.
 log(new CatImp1('Salem'));
-log(new DogImp1('Lassie'))
+log(new DogImp1('Lassie'));
