@@ -22,14 +22,14 @@ function loadPerson() {
 
 const maybePerson: PersonAssertion = loadPerson();
 
-// Now, if the network fails our loadPerson, utility function returns now, and this can be seen in the
+// Now, if the network fails our loadPerson, utility function returns nothing, and this can be seen in the
 // type inferred for the maybePerson variable.
 
 // So before we try to use this person object, we use a utility insertion function to assert that maybe
 // person is not equal to null.
 assert(maybePerson != null, 'Could not load person');
 
-// Now, from our understanding of this function, we know that if this function returns, we should b
+// Now, from our understanding of this function, we know that if this function returns, we should be
 // able to access any of the properties of the person, for example, the name property.
 console.log('Name:', maybePerson.name);
 

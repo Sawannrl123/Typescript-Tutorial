@@ -13,12 +13,12 @@ rollDiceDefinite();
 // Now, at this point, if we try to read the value of the dice, we get a compiler error from typescript.
 // console.log('Current Dice Value', dice); // Error
 
-// The error message indicates that variable dice is being used before it has been assigned.
+// The error message indicates that variable ***dice is being used before it has been assigned***.
 
 // The source of this error is the fact that we are not doing a direct assignment of the variable at the
 // point of declaration and only doing one later on through a function call.
 
-// Since TypeScript doesn't track the mutating side effects of a function, it thinks that dice might still
+// Since ***TypeScript doesn't track the mutating side effects of a function****, it thinks that dice might still
 // be undefined.
 
 // We can overcome this error with a non-null assertion.
@@ -42,7 +42,7 @@ function rollDiceDefinite1() {
 }
 
 // This exclamation mark at the point of declaration is known as a definite assignment assertion and now
-// tested no longer complains that the variable is used before assignment, just like other assertions.
+// typescript no longer complains that the variable is used before assignment, just like other assertions.
 console.log('Current Dice Value', dice1);
 
 // The definite assignment assertion is compile time only and it is up to you to ensure correctness.

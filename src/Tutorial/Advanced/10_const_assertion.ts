@@ -48,6 +48,9 @@ const dave1 = {
     name: 'dave',
     role: 'drummer',
     skills: ['drumming', 'headbanging'],
+    test: {
+        name: 'saw'
+    }
 } as const;
 
 // dave1.name = 'grohl'; // Error

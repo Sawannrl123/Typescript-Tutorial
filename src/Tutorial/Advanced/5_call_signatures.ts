@@ -104,6 +104,26 @@ type PointCreator2 = {
     debugName: string,
 }
 
+// const pointFn: PointCreator2 = (x: number, y: number, z?: number) => {
+//     if (z != null) {
+//         return ({
+//             x: x,
+//             y: y,
+//             z: z
+//         })
+//     }
+//     return ({
+//         x: x,
+//         y: y,
+//         z: 0
+//     })
+// }
+
+// const ins1= new pointFn(1, 2);
+// const ins2= new pointFn(1, 2, 3);
+// pointFn(1, 2)
+// pointFn(1, 2, 3)
+// pointFn.debugName = 'test';
 // And although you are very unlikely to create a type like this, at least you can appreciate the types
 // and TypeScript are extremely expressive.
 

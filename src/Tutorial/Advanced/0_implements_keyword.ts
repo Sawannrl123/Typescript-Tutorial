@@ -8,7 +8,7 @@ type AnimalImp = {
 
 // For example, here, we have a log function that logs out the animal's name and voice.
 function logAnimal(animal: AnimalImp) {
-    console.log(`Animal ${animal.name}: ${animal.voice}`);
+    console.log(`Animal ${animal.name}: ${animal.voice()}`);
 }
 
 // Now we want to be able to use these utility functions on instances of classes, cat and dog.
@@ -45,5 +45,5 @@ class DogImp1 implements AnimalImp {
 
 // And now, since no errors are being highlighted by implements animal, we can rest assured that instances
 // of cat and dog can be used at any place where an animal is required.
-log(new CatImp1('Salem'));
-log(new DogImp1('Lassie'));
+logAnimal(new CatImp1('Salem'));
+logAnimal(new DogImp1('Lassie'));

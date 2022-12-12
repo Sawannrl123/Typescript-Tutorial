@@ -23,6 +23,9 @@ type Dictionary = {
     [key: string]: boolean
 }
 
+// Alternert
+type D2 = Record<string, boolean>;
+
 // The type for the key can only be a string or a number, as those are the only ones that are safely supported
 // by JavaScript.
 
@@ -76,9 +79,9 @@ type PersonDictionary1 = {
 
 // So if we try to create a person dictionary without this member, typescript will give us a compile time
 // error.
-/*const persons1: PersonDictionary1 = {
-    nirala: { displayName: 'Sawan Nirala', email: 'sawan.kumar@olx.com' }
-}*/ // Error
+// const persons1: PersonDictionary1 = {
+//     nirala: { displayName: 'Sawan Nirala', email: 'sawan.kumar@olx.com' }
+// }// Error
 
 // And if we get rid of this required member, the error will go away.
 
